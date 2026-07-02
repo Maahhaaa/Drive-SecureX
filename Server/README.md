@@ -65,22 +65,8 @@ A real-time **CAN Bus Intrusion Detection System (IDS)** built with **Python**, 
 
 ---
 
-# Installation
 
-Clone the repository
 
-```bash
-git clone <repository-url>
-cd <project-folder>
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Or install manually
 
 ```bash
 pip install fastapi uvicorn python-can pandas numpy scikit-learn joblib
