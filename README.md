@@ -50,7 +50,7 @@ Each component has its own README with setup and usage details:
 ## 🎯 Limitations
 
 - Currently validated in a simulated environment (ICSim); real-vehicle deployment is a next step
-- The mobile app's server hostname is static and must be updated manually if the server's network changes (see [`mobile-app/README.md`](./mobile-app/README.md))
+- The mobile app's server hostname is static and must be updated manually if the server changes (see [`mobile-app/README.md`](./mobile-app/README.md))
 
 ## 🔮 Future Work
 
