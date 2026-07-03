@@ -19,7 +19,7 @@ The mobile application component of **DriveSecureX (DSX)** — a real-time CAN b
 
 The app connects to the backend server over **Wi-Fi or Bluetooth**, using a **hostname** instead of a fixed IP, configured inside `CANService`.
 
-> ⚠️ **Important:** The hostname is currently static and must be **manually updated** whenever the server's network changes (e.g. switching Wi-Fi networks, or the server getting a new address). Automatic network discovery is not yet implemented.
+> ⚠️ **Important:** The hostname is currently static and must be **manually updated** whenever the server changes (e.g. the server getting a new address).
 
 To update it:
 1. Open `lib/core/services/can_service.dart`
